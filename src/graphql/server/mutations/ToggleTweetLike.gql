@@ -1,0 +1,5 @@
+mutation ToggleTweetLike($id: String!) {
+  toggleTweetLike(_id: $id) {
+    ...TweetFragment
+  }
+}

@@ -1,0 +1,5 @@
+fragment TweetFragment on Tweet {
+    _id
+    content
+    liked
+}

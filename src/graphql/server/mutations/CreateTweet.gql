@@ -1,0 +1,5 @@
+mutation CreateTweet($payload: CreateTweetInput!) {
+  createTweet(payload: $payload) {
+    ...TweetFragment
+  }
+}

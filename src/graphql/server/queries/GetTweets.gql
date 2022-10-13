@@ -1,0 +1,8 @@
+query Tweets {
+  tweets {
+    counter
+    tweets {
+      ...TweetFragment
+    }
+  }
+}
